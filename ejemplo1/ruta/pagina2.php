@@ -132,6 +132,5 @@
         $pattern = "/ba(na){2}/i";
         echo preg_match_all($pattern,$str)."<br>";
     ?>
-    
 </body>
 </html>
