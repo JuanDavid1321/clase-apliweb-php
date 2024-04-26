@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+html{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 2em;
+    background-color: lightgray;
+    padding: 8vh 3vh;
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 100%;
+}
