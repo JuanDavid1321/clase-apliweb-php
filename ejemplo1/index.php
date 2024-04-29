@@ -8,6 +8,20 @@
 </head>
 
 <body>
+    <?php 
+        $cookieNombre = "nombre";
+        $cookieValor = "Juan David";
+        setcookie($cookieNombre, $cookieValor, time()+(86400*30), "/"); // Establecer una cookie con nombre y valor, guardada durante 1 mes
+
+        //Verificar si la cookie existe
+        if(!isset($_COOKIE[$cookieNombre])){
+            echo "Cookie no existente." . "<br>";
+        }
+        else{
+            echo "Cookie existente" . "<br>";
+            echo "Nombre: " . $_COOKIE[$cookieNombre];
+        }
+    ?>
     <header><?php include 'menu.php';?></header>
     <h2>Esto es HTML puro</h2>
     <?php
