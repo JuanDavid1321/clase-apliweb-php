@@ -6,6 +6,7 @@
     <title>Formulario simple</title>
 </head>
 <body>
+    <header><?php include '../menu.php';?></header>
     <h2>Formularios</h2>
     <form action="saludo.php" method="POST">
         Nombre: <input type="text" name="nombre" id="">

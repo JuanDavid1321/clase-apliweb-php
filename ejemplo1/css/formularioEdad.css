@@ -1,20 +1,20 @@
-*{
+* {
     margin: 0;
 }
-html{
+html {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-body{
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;

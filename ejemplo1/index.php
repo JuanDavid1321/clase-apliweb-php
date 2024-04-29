@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <header><?php include 'menu.php';?></header>
     <h2>Esto es HTML puro</h2>
     <?php
         $texto = "Mi primer script en php";

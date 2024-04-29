@@ -7,6 +7,7 @@
     <title>Calcular edad</title>
 </head>
 <body>
+    <header><?php include 'menu.php';?></header>
     <h1>Calcular su edad con base a la fecha actual</h1>
     <section>
         <form action="<?php $_SERVER['PHP_SELF']?>" method="POST">
@@ -35,5 +36,7 @@
             <?php endif;?>
         </div>
     </section>
+
+    <footer><?php include "./footer.php" ?></footer>
 </body>
 </html>
