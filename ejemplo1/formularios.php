@@ -6,15 +6,13 @@
     <title>Formulario simple</title>
 </head>
 <body>
-    <header><?php include '../menu.php';?></header>
+    <header><?php include 'menu.php';?></header>
     <h2>Formularios</h2>
     <form action="saludo.php" method="POST">
         Nombre: <input type="text" name="nombre" id="">
         Correo: <input type="email" name="email" id="">
         <input type="submit" value="Enviar">
-
-
-        // nombre y año de nacimiento para que reste la fecha actual y me devuelva mi edad
+        <!-- nombre y año de nacimiento para que reste la fecha actual y me devuelva mi edad -->
     </form>
 
 </body>

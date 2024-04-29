@@ -7,6 +7,7 @@ html {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #f6f7f9;
 }
 body {
     display: flex;
@@ -20,7 +21,6 @@ section {
     align-items: center;
     background-color: white;
     margin: 2em;
-    background-color: lightgray;
     padding: 8vh 3vh;
     border: 1px solid gray;
     border-radius: 20px;
