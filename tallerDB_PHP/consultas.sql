@@ -19,8 +19,7 @@ JOIN types
 ON types.type_id = pokemon_types.type_id
 ORDER BY pokemon.pok_id;
 
-DELETE p, pt, bs
-FROM pokemon p
-INNER JOIN pokemon_types pt ON p.pok_id = pt.pok_id
-INNER JOIN base_stats bs ON p.pok_id = bs.pok_id
-WHERE p.pok_id > 40;
+-- Eliminar un pokemon
+DELETE
+FROM pokemon
+WHERE pok_id = 1;
